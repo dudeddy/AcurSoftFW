@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8ae16ee9-fa51-4097-9b32-da2c23246c0a" namespace="UFId.DAL" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" fieldNamePrefix="_" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="7cd1c147-5773-49b8-83ce-e8994519e278">
+      <xpObject Id="267673a6-da15-4a98-989a-060fb51ca3f6" name="UFIdConfig" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="UFIdConfig" designerFileName="UFIdConfig.Designer" className="UFIdConfig" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="UFIdConfig">
+        <fields>
+          <generalXpObjectHasFields Id="dd10af18-bd4b-45c6-8977-72c75617a544">
+            <field Id="c8bbf9e4-b046-4d39-a5e1-48f5fb88f55d" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dfa567af-2a5b-4db5-8209-3d761676f222">
+            <field Id="4ecab20d-f0ef-467e-ba5d-99a98c123913" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="459b230c-aa83-46e0-b0a7-bfad93e11264">
+            <field Id="5cf9bbc0-09b4-4e82-9ea0-6d54835051ef" name="ReUseStrategy" virtualColumnType="AcurSoft.UFId.Enums.ReUseStrategies" logicalType="AcurSoft.UFId.Enums.ReUseStrategies" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3cd48e5c-8429-4bd0-b967-dcae9991866f">
+            <field Id="72b157c7-36fb-407a-9531-5c659de0de5d" name="AllowReservation" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4002186b-56eb-4aee-a139-52d40a564cd4">
+            <field Id="9efb02d5-37ef-4101-957a-d2b713543047" name="SequenceStart" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c5e5c3d2-7158-4ffc-9c7c-3c9d54895b38">
+            <field Id="d744398c-35bc-4ffa-8925-6be1bb6ab553" name="SequenceStep" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6b2fb387-2d1d-4743-a1cf-6485cac0f2fc">
+            <field Id="8e5202a6-0f61-46ac-a554-2ef2f20e9d42" name="SequenceEnd" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="9d09d235-7f7b-4649-8d8f-e14b166f9f7d">
+            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
+          </inheritance>
+        </superClass>
+        <aggrTarget>
+          <aggregation Id="89fe61d6-e2d0-45f2-b1e3-1b206acf3ce6" sourceCollectionName="UFIdConfigLinks" name="UFIdConfigLinkReferencesUFIdConfig" targetFieldName="Config">
+            <xpObjectMoniker Id="150c54bb-bc55-46bb-870f-6d68034144a1" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="967d80d7-5ba6-4e4f-9588-2b6cbac5020d">
+            <collectionField Id="cea59615-d42a-43de-9619-8ced2de66abf" name="UFIdConfigLinks" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="dec686b3-fee8-4d4e-a032-2bdd671e25dd">
+      <xpObject Id="150c54bb-bc55-46bb-870f-6d68034144a1" name="UFIdConfigLink" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="UFIdConfigLink" designerFileName="UFIdConfigLink.Designer" className="UFIdConfigLink" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="UFIdConfigLink">
+        <fields>
+          <generalXpObjectHasFields Id="2b00c273-f7bf-4463-a97d-5496b5a356b0">
+            <field Id="213d28ce-ff99-4680-a119-5514a1ee39cf" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e4d06cf0-66f7-4e3c-bab9-9a56e3a7b8f1">
+            <field Id="7e11b42d-0a16-426a-aec1-cf10ececd432" name="Config" columnType="UInt16" virtualColumnType="UFIdConfig" logicalType="UFIdConfig" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cff9adc6-b220-4b08-bbae-111df0d29d1e">
+            <field Id="d427f58c-cdb9-48fd-8364-f6d56806be6c" name="TargetTypeName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a509b465-e12d-4c5e-bf02-303f04c556bb">
+            <field Id="4eec6a18-2db5-463d-8345-3fc4bc16c642" name="TargetMember" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a1a84cc9-43a7-4409-90e9-35b170dc9c51">
+            <field Id="64e090d7-7bb5-49bc-8eea-1232d2bc0829" name="DateExpression" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="17b38212-b2a2-4145-825e-d492c89b55f3">
+            <field Id="e5293d3a-2a4c-4a8e-88b6-5b17885cbf73" name="DateTextExpression" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="21d92504-4c1c-457d-91b0-c2246ba5b087">
+            <field Id="80ba7186-c1ce-4fb8-bde5-b7a25e45b43f" name="ValueExpression" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="80cdbc5b-308a-476e-ae2c-deca85e05902">
+            <field Id="ffceda83-0a72-4ac6-b7ab-c7f480759a39" name="RestartIfNewDateText" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="09d24aaa-71a6-4742-bf8c-e408facf6f68">
+            <field Id="53e3e475-eff5-4085-9bf0-7df5b072b81d" name="StoreUFIdText" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bb8dd895-1202-4249-aba8-0e9e74feccfb">
+            <field Id="fec9784f-1f2b-4a37-853b-53cfb88be860" name="AppyCondition" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="65616b8e-5c3b-425e-9a44-cc4635a7e811">
+            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
+          </inheritance>
+        </superClass>
+        <aggrTarget>
+          <aggregation Id="8f1d744f-8b58-4052-8f81-aeb3bc3be5fa" sourceCollectionName="UFIdSequences" name="UFIdSequenceReferencesUFIdConfigLink" targetFieldName="Link">
+            <xpObjectMoniker Id="b5d13163-aaf8-4da6-aa5f-32856a9bf805" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="d9332ddf-d7fd-48c2-a13b-b836b4225d19">
+            <collectionField Id="da9a6d59-4940-462d-a61d-7c1cb8cf295c" name="UFIdSequences" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="4e3391b7-43c4-4ea1-a617-ca00a238385b">
+      <xpObject Id="b5d13163-aaf8-4da6-aa5f-32856a9bf805" name="UFIdSequence" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="UFIdSequence" designerFileName="UFIdSequence.Designer" className="UFIdSequence" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="UFIdSequence">
+        <fields>
+          <generalXpObjectHasFields Id="646ce3c5-48ce-48a9-a3a3-b523a98719e7">
+            <field Id="2c73c754-d70e-4848-ade5-f2f2e7996327" name="Link" virtualColumnType="UFIdConfigLink" logicalType="UFIdConfigLink" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a42d2991-9229-4945-9b9d-395f439596d1">
+            <field Id="0fada39d-5b81-4245-a707-41c02dafafd2" name="DateValue" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c63ba8de-0602-46d6-9146-3ba956dc72b1">
+            <field Id="8b05b714-38a6-4660-a6a1-d126e38dc21a" name="NumValue" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="62052db3-75ca-4e80-909e-ee1f54162ccf">
+            <field Id="7d59383f-7475-4265-9605-a673e341f908" name="UFIdDateText" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="15fc09be-48a3-4a68-9dc3-0172592ac62e">
+            <field Id="c9d744a5-06d5-4271-9d8a-a0851e1dee65" name="UFIdText" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5887369b-6a89-41aa-b64f-4284c32fb35b">
+            <field Id="c4f366fb-582e-42d2-8ad0-c45523d9ddd0" name="TargetId" columnType="Guid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="97966973-4e0b-4c38-8e9b-d9936ee9bdd8">
+            <field Id="42aabdaf-75fe-40d2-b1c3-b124d7ff24a7" name="Status" virtualColumnType="AcurSoft.UFId.Enums.SequenceStatuses" logicalType="AcurSoft.UFId.Enums.SequenceStatuses" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="dcea1ed5-75a7-4972-8ecc-fa93e666ef91">
+            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="7395b477-b342-4a0f-9d49-d4a3a6aaff44">
+      <externalPersistentType Id="6442640b-53c7-486e-b70e-cae429b441cc" name="DevExpress.Persistent.BaseImpl.BaseObject" baseClass="UFIdConfig" nameSpace="DevExpress.Persistent.BaseImpl" virtualName="BaseObject" assemblyName="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.6.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="true" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="8d313058-a113-4d55-8d14-e82614470d33">
+            <externalPersistentTypeField Id="82939d07-79be-4671-92a9-88f6e168a0c1" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="37a7da31-1c0c-4ae5-a004-4b900c3f2a92">
+      <xpObject Id="07175655-9859-48ca-8aad-789a8eca9365" name="TestObject" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="TestObject" designerFileName="TestObject.Designer" className="TestObject" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="TestObject">
+        <fields>
+          <generalXpObjectHasFields Id="14429db0-9fc0-40e9-bf0c-096d88b1d27a">
+            <field Id="a28b07ea-241c-42b9-92db-4d3ebac0f1ce" name="Tdate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="50aa1bc3-ab49-4201-903d-6d777da8c8b0">
+            <field Id="4400525f-6955-416b-bbc7-63501fb25326" name="Field1" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3d0902c3-e038-402b-812f-cbd43dc08bf7">
+            <field Id="71348383-ab7f-481b-b749-0d02bbd268dc" name="Field2" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b91304cf-ef6d-4dfa-8c8b-63fde39f6c81">
+            <field Id="60f09f5a-f32a-468f-8342-7d92e70374ca" name="Field3" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0b9c7657-c441-417b-bef9-d640aefdd532">
+            <field Id="c81892b9-ad2a-4e20-bc1a-a3ff7ca69cc7" name="EditStatus" virtualColumnType="ObjectEditStatus" logicalType="ObjectEditStatus" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="db90ca98-08e7-4011-9dc1-b8bc375f974c">
+            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="1af6724d-6570-413f-89e0-0dbbc9f50ae9">
+      <xpObject Id="216c3240-935f-413f-a928-48d2ed515967" name="ObjectEditStatus" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="ObjectEditStatus" designerFileName="ObjectEditStatus.Designer" className="ObjectEditStatus" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="ObjectEditStatus">
+        <fields>
+          <generalXpObjectHasFields Id="58425845-9aa1-4f19-ad09-8af81fe02625">
+            <field Id="b8e0e74b-d538-4ab9-9ee8-03940b3c17d8" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="af5a4299-51f1-4cc8-b89c-898c1196a231">
+            <field Id="749eae70-6ea6-4bdc-99e4-6e1b42edf4f4" name="Caption" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cc02924e-0a3b-43ac-91f7-c6a699878e93">
+            <field Id="9ab228fc-76f4-4ec8-ad08-fef8b81cb9b9" name="Index" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1f4e31b1-d114-4ba7-abde-7b0f37dafc58">
+            <field Id="1c4b3877-21f6-4951-8f8c-0e8776a47b30" name="Status" virtualColumnType="AcurSoft.Enums.ObjectEditStatuses" logicalType="AcurSoft.Enums.ObjectEditStatuses" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="f0874ff3-e1c2-42ff-8633-242f17640ec1">
+            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+  <externalTypes>
+    <dataBaseObjectModelHasExternalTypes Id="fe13296e-f9d3-4c83-ad54-e3ba6044228c">
+      <externalType Id="5c5c923d-b986-4a64-9ab0-0c4fa21e4dc1" name="BasicTypeCode" namespace="AcurSoft.Enums" />
+    </dataBaseObjectModelHasExternalTypes>
+    <dataBaseObjectModelHasExternalTypes Id="f0758649-419e-4d97-a76d-6ce996947795">
+      <externalType Id="310c4b45-3ab6-4b93-930f-75657db15590" name="SequenceStatuses" namespace="AcurSoft.UFId.Enums" />
+    </dataBaseObjectModelHasExternalTypes>
+    <dataBaseObjectModelHasExternalTypes Id="a67023e9-a2ac-4c8e-9847-9d5274e570b8">
+      <externalType Id="fe0d0daf-46af-4cf1-b140-e4b3ec772378" name="ReUseStrategies" namespace="AcurSoft.UFId.Enums" />
+    </dataBaseObjectModelHasExternalTypes>
+    <dataBaseObjectModelHasExternalTypes Id="5b5a0e32-295c-4ccf-a653-dc1d05f69f72">
+      <externalType Id="3dac2bf8-0ab3-4185-a729-8b2a82868bc3" name="ObjectEditStatuses" namespace="AcurSoft.Enums" />
+    </dataBaseObjectModelHasExternalTypes>
+  </externalTypes>
+</dataBaseObjectModel>

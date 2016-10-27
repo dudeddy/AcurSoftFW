@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="XafApplication1" Logo="ExpressAppLogo">
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="16.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Master_Details_ListView" MasterDetailMode="ListViewOnly" NewItemRowPosition="Top" />
+  </Views>
+</Application>
