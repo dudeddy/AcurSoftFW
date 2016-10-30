@@ -37,12 +37,12 @@ Partial Public Class ViewController1
     End Sub
 
     Private Sub SimpleAction1_Execute(sender As Object, e As SimpleActionExecuteEventArgs) Handles SimpleAction1.Execute
-        Dim x As UFId.DAL.TestObject = e.CurrentObject
-        Dim links As New XPCollection(Of UFId.DAL.UFIdConfigLink)(x.Session, CriteriaOperator.Parse("TargetTypeName = ?", x.ClassInfo.FullName))
-        Dim lll As New List(Of String)
-        For Each l In links
-            lll.Add(l.GetDraftUFIdText(x))
-        Next
+        'Dim x As UFId.DAL.TestObject = e.CurrentObject
+        'Dim links As New XPCollection(Of UFId.DAL.UFIdConfigLink)(x.Session, CriteriaOperator.Parse("TargetTypeName = ?", x.ClassInfo.FullName))
+        'Dim lll As New List(Of String)
+        'For Each l In links
+        '    lll.Add(l.GetDraftUFIdText(x))
+        'Next
 
     End Sub
 End Class

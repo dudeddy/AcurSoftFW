@@ -4,19 +4,20 @@ Imports DevExpress.Data.Filtering
 Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports DevExpress.Persistent.Base
+Imports AcurSoft.Numerator.Core
 
-Namespace UFId.DAL
+Namespace DAL
     <DefaultClassOptions>
-    Partial Public Class UFIdConfig
+    <ListNumeratorAttribute("ObjectTemplateMembers", "Index", "Template")>
+    Partial Public Class ObjectTemplate
+        Public Sub New()
+            MyBase.New()
+        End Sub
         Public Sub New(ByVal session As Session)
             MyBase.New(session)
         End Sub
         Public Overrides Sub AfterConstruction()
             MyBase.AfterConstruction()
-            Me.SequenceStart = 1
-            Me.SequenceStep = 1
-            Me.ReUseDeletedStrategy = Enums.ReUseStrategies.None
-            Me.AffectReservedStrategy = Enums.ReUseStrategies.None
         End Sub
     End Class
 

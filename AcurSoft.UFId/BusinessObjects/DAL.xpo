@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8ae16ee9-fa51-4097-9b32-da2c23246c0a" namespace="UFId.DAL" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" fieldNamePrefix="_" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8ae16ee9-fa51-4097-9b32-da2c23246c0a" namespace="UFId.DAL" dataBaseShemaInfo="H4sIAAAAAAAEAO1c224cNxJ9D5B/EPzskngp3oKxAkeyAyO217DlIK9FsijPZjTSzsWS/36Lulm+ZFcLtaYXjl8G0+xuTJ+uYtU5VeRMfj47mm2958Vyejx/9EBvqwc/7/74w+QXWvKb1fGCDvnZvB1vyVXz5U9ny+mjB+9Wq5OfdnZOT0+3T+328eJwxyild/548fxNecdHBNP5ckXzwg+u76r//a4H8qtbW5MDyjNe9p88P74auTFwNfSSjnj37dNnde943qaHk52Po9cXPpn3sd3VYs2TncuD65P702UfeHtSacW7jWZLuejTwetrf11P67O6a3zwwZKHStoBUoqQYiJQXrXsdCHb/GTn8uLrm/eOZ+uj+fITDH85LCc6houTu/3rZOfGwCcX/id4/yvEmzCRC2WjKjTFDdAHhkyuQkqCuGhjk7ZfwJTbd+6AtDsbv5gul9P54eYRG5ujqtlBbMxiWE6QTCzAmWpD4yOXLw17R8SveXkD85vVQh7u8MPmsbvSUs5FgUoZATkaSEwKfHUYrVNOcxsa++PZ7PhUXgAv3tNKIs/mUQeTtQslgPUtA6pAkJzV4Ip3qbKq7OrgPs7/WrMExjcrWqw2Dzlxy8pUBzb0aa2VFsiCu5octHVoFYb7gvxkXjcPOLIzyki4Vs1riWNUgJxDMNxMM4pTRTM04Oe0XL1dcv2dZusRQrchRdS8h8I2AAZjIafkAU1rRdvWxLPvIZDxSrJwnY4zlSsVE2JxoEhJ8E4agdgpcCmGVshFtoMH773jOoJ1S8y5JUbICsWm1SZxaBbXjs21HOVz+KD1mt92Kvh3yk4f4zSfjODOAdEKzwLrcgFsjSAm48Bn1jl7ys4Nzr5+WUtkWGweq2edQvQRakhGpm53beedHDrBrVRBN3iEPnfofZ7xiuvfy68fi5HL6oJ2jYmd2NTiVAKJWUJEuDBEcgGqD1ooimU7fMC+NPjjeR0fv2mVRFcQtCRsBAmL6CsyEJB8U5Frwtvb/mujl2L41jL6V57zgmZ/nPwj/1M8RG9ETGunisOcIRcnYtrLtxhUkxngo7KoEUkPKqavCgUblxqsdUZThZ/ozsQ8CT8pGkrTSny/VLSDB7kDWhzy6uDDCY9TQhBmHZqTJFZqTp2fVIjWIzSJb2JeyWW+3A/mF3yUx0hlyFw86Qim1xHQ244YRWy1grloX/zwYuPplGdVjyCsVKago6gMLbEbJYxDFsEMOZBxjC6j3WwA+1gHfD6d//k9fH0PX3fD/D18bSJ8nddInpydLHi5HKVyMGgcu6247EXfHq8O+GyEIqATds0YHHBrYmcVHaTcFITaXFbB5Kjvo0DUK54jloiKoA41RijkRFMnYdyEojht0zoEdjnR4PP5FS3oSI/p3i4JMslMEGwU986COjZsYJzJNfRasOJ7QW3GRK2KDwkpg0miKTEFhoRVQaXCwUSrCd29oLZjojbOl4zZgzatlwZrgKw4g9OOFBsVsxrcw/flYcbE7JFVUoI05J6zUhb/ZiZ5BdZUk4uKJt1TLHvWXvJpxz9OFG+tcKVohZMFA0jF95yVoYSGUQWXyA6O/ArtmBZnZ5KtlsD0ogmShLUYxeld1iFGV3ILg9dGrzo6L9dHIzV1XC2clMBMTT7E6Wv38wTW6SRkVKa4H7xxd4W6W30k2GQLYwsVREv1QniSkIZie8/FtRqDiy5/G30do201UShoa0nkhigMIK0TOKdFRTLbVIYvBp+cfBiRkTUuKUQhI7qZLDPZBojOSr6ypXeyMkevNl5CuGr8bKSAkF3VVnsLRC1KxiYv31wDa6LzJKQ8qi95yl0KCBelkY37dgm2BIdQQ+/ORoxAXWP1FjyHlLw1gwevsUolBUU9Wx/At27SXg5Kiis0Z10Ts7Ivt3fq2+rJa5/duHrOyuWgEWwU30XvJWp50lC18WxjLUbT0GjHE84l9cYsOVC+Ctk0QUOqkYBEQmvWldkPLisuSkLPRlg6U7BZ31dGuWhk1gqdhkgiogo6Z2xNtdbhPXlFq/VyhNKXIcqVGgTXBKsSrFkXKx8Ga2jNIN3HuqiRWNUYs3ZEEqkaVRFDVSRC1OLI6ICCCoC6KCNGp1YHr2v2IDWeNgzVJRutuHMv86HxDpJXAtsHyxZ1SyoOjXg8bTSoOw/BIw94ubpoo2+ERaqgg/NObBxd71QUkkBNFUJMoo4LJfuVtHQXFjlWzxFRKWeEH/vU+23aZ8i5CNWyTumWjbNm8EUj51jNCFNYW4wyh4FyaGJULVgDJlBVmZyr8eLX94LVjlDEU02l5giaNdS1b+uNJwOhJtEHygYsg+ejg/40IxQ0jESrwARGso9E5tx3GdTcF3JypqKaLoPX45+IwB+LWJWoY+ooqXbTslGQixbKbFsLhXwqZXBide7GOAaJbMzNJKjRSx5CMpCSYLWMWLElX9uYSyLOGxQbSUgNTSkt9DTcdxnYjBC1UGqslFPT1nIcdo/UOGWNGAv27V69o9bnsokQFUfIkqOi6KPo7TdSnIw2CRxJQU05YdCFRBk1y2CyqUEhJq2Hj1oj9hhk6lKqYtnGkpXQoVi2cIXCKZoY5U2UwXsrfaXLCBuCso7CK0QMibaXmJVVJxwMnJrIe2WVTNihkT6bVz4bwYl95eaJQUiGOLFmhKSS66nIGRtVthFHKzefB+dL/bSBCI1cbOamQbArwL4Gm8ggVJHJhbByxi+baHeN0JcJaOPy37DJko2BQ+wURHgXlcignRbSqckIIfl2KrK5paBdiqB0kqRURfrHGkU8OPRCLrPTenC0N5138zu/uiYUyZtRpd4O7qsxewfNOVcU2YK82Vl9Ifxvcu5N7ErXvliDCpJ1fV+nlfmchI9grIarE4f4Snv4bitRx+AhObLigBmqswKOunpiYVzKJpT4XXSog9e19uhkpO3JmJhE/oLnXtbKtYickKTlua/F5dqw3d6z/79Tc6Is7LkVCL71nVClNwhVFPrVYo4StVIenG+NpYh1QWEaIYDRfZVWEkIdWywgyiEETxiyHbbrfXn88ZLJ+frT+mpxXM4Ht3Yuhn+/+AuQ3X1+f0m+t/dpRdvvtd/WD7cuTz/qR9t+Wz3c2lvPVusFP5rzerWg2cOtV+s8m5bf+MPB8Z88f5RjrDo4FI2gGBNNdq5+4vz39ma0XPKyG+D1+vrtTh5XeTRu07PL57oYerNunwy95qPj9/z5hRejn1+7R0thW/PyjuaHXOWd9eOLV/O1Z5jImznhxWo68rP9xWNMLrZqrcRrj454vlpe+ugXw59cvM/L6aF8fToVV/jsjk/P/fjDZOez/37Z/Te16B0xJEYAAA==" generateStoredProcedures="false" fieldNameCase="Unchanged" fieldNamePrefix="_" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
   <classes>
     <dataBaseObjectModelHasClasses Id="7cd1c147-5773-49b8-83ce-e8994519e278">
       <xpObject Id="267673a6-da15-4a98-989a-060fb51ca3f6" name="UFIdConfig" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="UFIdConfig" designerFileName="UFIdConfig.Designer" className="UFIdConfig" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="UFIdConfig">
@@ -11,10 +11,16 @@
             <field Id="4ecab20d-f0ef-467e-ba5d-99a98c123913" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="459b230c-aa83-46e0-b0a7-bfad93e11264">
-            <field Id="5cf9bbc0-09b4-4e82-9ea0-6d54835051ef" name="ReUseStrategy" virtualColumnType="AcurSoft.UFId.Enums.ReUseStrategies" logicalType="AcurSoft.UFId.Enums.ReUseStrategies" delayedUpdateModifiedOnly="false" />
+            <field Id="5cf9bbc0-09b4-4e82-9ea0-6d54835051ef" name="ReUseDeletedStrategy" virtualColumnType="AcurSoft.UFId.Enums.ReUseStrategies" logicalType="AcurSoft.UFId.Enums.ReUseStrategies" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="3cd48e5c-8429-4bd0-b967-dcae9991866f">
             <field Id="72b157c7-36fb-407a-9531-5c659de0de5d" name="AllowReservation" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9a4cd90e-7455-4a51-925f-2f0783901240">
+            <field Id="ae2dc509-fb8f-4ece-8a57-d671fb03e336" name="AffectReservedStrategy" virtualColumnType="AcurSoft.UFId.Enums.ReUseStrategies" logicalType="AcurSoft.UFId.Enums.ReUseStrategies" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a059c16f-14ed-4b7e-9018-f7deaf48f968">
+            <field Id="2fdaadfa-f954-4a4c-baa2-74a6f08ed94f" name="DeletedAndReservedStrategy" virtualColumnType="AcurSoft.UFId.Enums.DeletedAndReservedStrategies" logicalType="AcurSoft.UFId.Enums.DeletedAndReservedStrategies" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="4002186b-56eb-4aee-a139-52d40a564cd4">
             <field Id="9efb02d5-37ef-4101-957a-d2b713543047" name="SequenceStart" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
@@ -135,32 +141,6 @@
         </fields>
       </externalPersistentType>
     </dataBaseObjectModelHasClasses>
-    <dataBaseObjectModelHasClasses Id="37a7da31-1c0c-4ae5-a004-4b900c3f2a92">
-      <xpObject Id="07175655-9859-48ca-8aad-789a8eca9365" name="TestObject" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="TestObject" designerFileName="TestObject.Designer" className="TestObject" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="TestObject">
-        <fields>
-          <generalXpObjectHasFields Id="14429db0-9fc0-40e9-bf0c-096d88b1d27a">
-            <field Id="a28b07ea-241c-42b9-92db-4d3ebac0f1ce" name="Tdate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-          <generalXpObjectHasFields Id="50aa1bc3-ab49-4201-903d-6d777da8c8b0">
-            <field Id="4400525f-6955-416b-bbc7-63501fb25326" name="Field1" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-          <generalXpObjectHasFields Id="3d0902c3-e038-402b-812f-cbd43dc08bf7">
-            <field Id="71348383-ab7f-481b-b749-0d02bbd268dc" name="Field2" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-          <generalXpObjectHasFields Id="b91304cf-ef6d-4dfa-8c8b-63fde39f6c81">
-            <field Id="60f09f5a-f32a-468f-8342-7d92e70374ca" name="Field3" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-          <generalXpObjectHasFields Id="0b9c7657-c441-417b-bef9-d640aefdd532">
-            <field Id="c81892b9-ad2a-4e20-bc1a-a3ff7ca69cc7" name="EditStatus" virtualColumnType="ObjectEditStatus" logicalType="ObjectEditStatus" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-        </fields>
-        <superClass>
-          <inheritance Id="db90ca98-08e7-4011-9dc1-b8bc375f974c">
-            <externalPersistentTypeMoniker Id="6442640b-53c7-486e-b70e-cae429b441cc" />
-          </inheritance>
-        </superClass>
-      </xpObject>
-    </dataBaseObjectModelHasClasses>
     <dataBaseObjectModelHasClasses Id="1af6724d-6570-413f-89e0-0dbbc9f50ae9">
       <xpObject Id="216c3240-935f-413f-a928-48d2ed515967" name="ObjectEditStatus" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="ObjectEditStatus" designerFileName="ObjectEditStatus.Designer" className="ObjectEditStatus" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="ObjectEditStatus">
         <fields>
@@ -197,6 +177,9 @@
     </dataBaseObjectModelHasExternalTypes>
     <dataBaseObjectModelHasExternalTypes Id="5b5a0e32-295c-4ccf-a653-dc1d05f69f72">
       <externalType Id="3dac2bf8-0ab3-4185-a729-8b2a82868bc3" name="ObjectEditStatuses" namespace="AcurSoft.Enums" />
+    </dataBaseObjectModelHasExternalTypes>
+    <dataBaseObjectModelHasExternalTypes Id="e0f96a28-2ccd-4939-b5ba-149747d89d45">
+      <externalType Id="cf443ef0-965d-42dc-8faa-74350d0b108e" name="DeletedAndReservedStrategies" namespace="AcurSoft.UFId.Enums" />
     </dataBaseObjectModelHasExternalTypes>
   </externalTypes>
 </dataBaseObjectModel>

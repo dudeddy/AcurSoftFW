@@ -12,7 +12,13 @@ Imports DevExpress.ExpressApp.Xpo
 
 Namespace UFId.Utils
 
-    Public NotInheritable Class UFIdGeneratorInitializer
+    Public NotInheritable Class UFIdInitializer
+
+        'Public Shared Property ObjectsWithUFIds As Dictionary(Of String, XPClassInfo)
+        Public Shared Property ObjectsWithUFIds As List(Of String)
+
+
+
         Private Sub New()
         End Sub
 
@@ -29,18 +35,23 @@ Namespace UFId.Utils
             End If
         End Sub
         Private Shared Sub Application_LoggedOn(ByVal sender As Object, ByVal e As LogonEventArgs)
-            UFIdGeneratorInitializer.Initialize()
+            UFIdInitializer.Initialize()
         End Sub
         'Dennis: It is important to set the SequenceGenerator.DefaultDataLayer property to the main application data layer.
         'If you use a custom IObjectSpaceProvider implementation, ensure that it exposes a working IDataLayer.
+        Private Shared provider As XPObjectSpaceProvider
         Public Shared Sub Initialize()
-            Guard.ArgumentNotNull(UFIdGeneratorInitializer.Application, "Application")
-            Dim provider As XPObjectSpaceProvider = TryCast(UFIdGeneratorInitializer.Application.ObjectSpaceProvider, XPObjectSpaceProvider)
+            Guard.ArgumentNotNull(UFIdInitializer.Application, "Application")
+            'Dim provider As XPObjectSpaceProvider = TryCast(UFIdGeneratorInitializer.Application.ObjectSpaceProvider, XPObjectSpaceProvider)
+            provider = TryCast(UFIdInitializer.Application.ObjectSpaceProvider, XPObjectSpaceProvider)
             Guard.ArgumentNotNull(provider, "provider")
 
             If provider.DataLayer Is Nothing Then
                 'Dennis: This call is necessary to initialize a working data layer.
-                provider.CreateObjectSpace()
+                'Dim objectSpace As IObjectSpace = provider.CreateObjectSpace()
+
+                'ObjectsWithUFIds = (From q In objectSpace.GetObjects(Of UFId.DAL.UFIdConfigLink)()
+                '                    Select q.TargetTypeName Distinct).ToList()
             End If
 
             If TypeOf provider.DataLayer Is ThreadSafeDataLayer Then
@@ -49,7 +60,16 @@ Namespace UFId.Utils
             Else
                 'SequenceGenerator.DefaultDataLayer = provider.DataLayer
             End If
+            Refresh()
         End Sub
+
+        Public Shared Function Refresh() As List(Of String)
+            Dim objectSpace As IObjectSpace = provider.CreateObjectSpace()
+
+            ObjectsWithUFIds = (From q In objectSpace.GetObjects(Of UFId.DAL.UFIdConfigLink)()
+                                Select q.TargetTypeName Distinct).ToList()
+            Return ObjectsWithUFIds
+        End Function
     End Class
 End Namespace
 

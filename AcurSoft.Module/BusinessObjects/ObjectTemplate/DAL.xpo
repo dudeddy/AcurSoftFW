@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ab64194f-86b0-4bca-9fc8-c62e289b3507" namespace="DAL" dataBaseShemaInfo="H4sIAAAAAAAEAOVZW09bRxB+j5T/gHjO2Hu/RMZRCmmF2jRRIFFfZ3dnwa19jHxsIP++Y2xIgKSlxfWpkhfLOzur3W/n9s3ZwYvLyXjnnGbtaNrs7cqe2H0xfPpk8AO2dDSfzvCEDps63WGtpn1+2Y72dk/n87Pn/f7FxUXvQvems5O+EkL2f3v9y1E+pQnCqGnn2GTavVlV/n7VLu+6szM4xjSmdrnl1fha8pngWvQrTmj4Jv1OeX5Mk7MxzmnQ/zRzo/yqWcqG89mC59eDm8mDUbsUvD8rvHxYcdyy0m3hje5Pi1E5LMOYpfIUClQsEoysBFiVABZJbaP2KOWgv1a+Wbw/HS8mTXsLx1fFPLHEsJocHuPshObHH8+ugA36n03dWvJXQP8p2M8Bi+h8UT4DasWAUWSIUmmQqILXDp0U4h5gXt5/BOb9aekAaSpGIIkIaKwGo5yHqJwEazBq6zXVlDeOFM/mHHrbB2uLUVjQg5LRMNjkIVWBIIkDM7uMHuODwX5Juo7GfxnLr2mSaLaViJZC1uRcgOwqO3jyGpKvDrJWSEHZ6vV9B39URN/kq20bHU0UNssC1mk2Ors7hKIjhFCqrRiDkRv38JUlu8ldRVAsKWmI0QbGWzmiq0EOcINGZCIf7yfrR+I9bF+27TSPsJu4dlIrq5yGIguC4ZIE0YUEQRlrAwltQ9k45KbQ5fahVqWEI1PZfdMSqq+AQQVwVLSuXKijf3gKeyDUtzijZn6dnbaetIVyynvLJalUMJXTd3AqgasZc8jBkbP/Tfx+wPGii4SVjdaKPLggBAOWCtDGDEIZI5WiqOLGycf7ln6mj9vHqmVUVWguwTUnMKUoSK4UQOkCVyIsOW08Wa2MuySXHThztBQTO7NLmDk5KyZeshrQbOpkdQlSmc0n53d8kW+acQf2ReYRwnruF1By8bUcwak6ZtOmUPZSerRu03hfjsfTi1dlNP8+4B4t0lWiaveni6YDzD66pKsuXJECU0mSAkJNFqTOrqRqsqLaIanePx2NyxaZdfbBGB8Vk+rMP5oclyvicuV1NMKYHOt9uvkYZt1tdcYSmV+XDJQdMdxaIWbm2dxnVWFkqVFvPKF1ya6jjiSMVaC1s2CcYv4lpAeflBFOWXb3b6tgqeSyzhmSEmxfJzIErBmyV6ij5MKy+YLVFRlxMsRASgEZ0mA8WzkmTGCDW379MV5/Y8WZqHgtCawkJpr2KnMHC1yrnE+5iESbx9tN26SLCJo8d8GCCvMu7yD5wP+sVzo6V5PZONQueUgXlu32G4A2qFB4z7wjMPXKxC2y5+BNRStJJJIp6f9BQ9Zt5Ra4iMqlMOMQgJXbSZOlXnZXmROaTUXKaEW8fyeP4SJdsZCspWBunUCg4DayhghBMB9BqhSMykEJ9W19IzAk1LKF9JF93ISiAW1QULWrzrGwuI0H+C0m/T1Y+LB0YNhQCkNRkIzO3E0xlUYl1fKxwtloUsDwcMM+JI2tx59UBss3UCpvZ9N8Jdzpr8QfVg+mwwM6f3V5NqO27R3gHHvn0vXks5319N5y1HM98WxnfzGeL2a019BiPsPxs523izQeZaZ2x9M/qNlLIRTprSleCDIRB/3rLa722x9j21K7NMC7xc3tDl4WPhrV0eX6XCvR0aLeEr2jyfSc7iqupHd197Gl4fsmn2JzQmzyq/Hqar50hgHfzBnN5qOOz/aVYwx+ooZmy4oznUy4MWzXPnpPfEv5gNrRCf/9ccSucGfF7bmnTwb9Oy/lwz8BaQftL1IfAAA=" generateStoredProcedures="false" fieldNameCase="Unchanged" fieldNamePrefix="_" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="1ff1a796-5b53-4508-9c28-46fd8181b8f5">
+      <xpObject Id="9c127e8d-fad1-41fe-af20-e8d135937a11" name="ObjectTemplate" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="ObjectTemplate" designerFileName="ObjectTemplate.Designer" className="ObjectTemplate" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="ObjectTemplate">
+        <fields>
+          <generalXpObjectHasFields Id="64b950ae-d6ff-48e4-9cfa-96ee619ff1cf">
+            <field Id="0967d27c-a321-4a0c-9123-1a28736a6100" name="TargetTypeName" virtualColumnType="String" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;AllowEdit&quot;, &quot;False&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c5c08d2f-a266-4f27-9827-227ececf227a">
+            <field Id="bd40ae09-a453-4267-9261-54a93573efbc" name="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2929db10-ffee-4bb1-a144-a9739b194ffc">
+            <field Id="5d42ada7-2194-42b7-bf0a-1e200c6ca7a9" name="Caption" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="a00d57c2-09c5-40cf-ae85-ee016cf34f60">
+            <externalPersistentTypeMoniker Id="de580169-0d28-4107-bd6f-595abc5be762" />
+          </inheritance>
+        </superClass>
+        <aggrTarget>
+          <aggregation Id="00036dd8-0db9-4312-952a-77d9a415adb0" sourceCollectionName="ObjectTemplateMembers" name="ObjectTemplateMemberReferencesObjectTemplate" targetFieldName="Template">
+            <xpObjectMoniker Id="101fb668-c6f1-4b73-b7f6-c32ae825f730" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="9bc96a2b-030f-4def-b0c0-b6784232ed37">
+            <collectionField Id="27d53dba-c72c-44a9-8f32-b8b10fb17c8f" name="ObjectTemplateMembers" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="fa2e7336-c83b-4229-97b7-ecc0472670b7">
+      <externalPersistentType Id="de580169-0d28-4107-bd6f-595abc5be762" name="DevExpress.Persistent.BaseImpl.BaseObject" nameSpace="DevExpress.Persistent.BaseImpl" virtualName="BaseObject" assemblyName="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v16.1\v4.0_16.1.6.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v16.1.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="true" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="ce3f10bf-b354-4e32-81fe-a3eb69948e35">
+            <externalPersistentTypeField Id="4b0af21c-b6a0-4fa6-82c2-3912b44c8f83" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="f529eff4-c2c8-4951-bcaa-9ac2dfd4cea6">
+      <xpObject Id="101fb668-c6f1-4b73-b7f6-c32ae825f730" name="ObjectTemplateMember" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="ObjectTemplateMember" designerFileName="ObjectTemplateMember.Designer" className="ObjectTemplateMember" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="ObjectTemplateMember">
+        <fields>
+          <generalXpObjectHasFields Id="4d6d2fc2-5ffd-45f3-8bcf-b47d6ad5aab5">
+            <field Id="a4905c1d-5634-440a-8d39-88df5fa9841c" name="Template" virtualColumnType="ObjectTemplate" logicalType="ObjectTemplate" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dbbb1acb-a0fb-43fb-b8eb-efa913d6041d">
+            <field Id="d0e9dbb3-9958-44f7-9f4a-a44a40cee791" name="MemberName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d5253eb5-13ba-435c-a5ab-19683bcf5dc6">
+            <field Id="595e9b75-6bac-4429-a1f4-3800b53d8124" name="MemberType" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dfc3684b-ea0d-4c7e-8b25-f58d7cdd52d6">
+            <field Id="3192f03a-1fcb-4dd2-b6dd-a1682aeadcb1" name="UseKey" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="996d5fcf-a576-4942-8dff-2d1b8977e63f">
+            <field Id="ac4332e7-6800-4f12-a59c-0244122e9290" name="MemberValue" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e2c44ce9-b05e-4178-809d-1b0a09977279">
+            <field Id="61325263-d1da-4359-968b-824558e0358d" name="IsAssociation" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6bb5005b-9fbb-4455-8c2d-b6cdda2db2a3">
+            <field Id="a730057e-aa14-45df-bf6c-94dec7117a56" name="AllowEdit" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d86d0937-c879-4652-8bfd-f452834c2338">
+            <field Id="796b3f3d-8881-4e10-8fb5-13c6dbf4c2ef" name="SubValuesCount" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6ac4c6a3-898c-4909-bc2b-b931d543755f">
+            <field Id="f2206e4f-88ba-437f-a828-6ed33f9c1979" name="Index" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <superClass>
+          <inheritance Id="ed23e0a3-701f-4404-8e77-41c7a0e915c5">
+            <externalPersistentTypeMoniker Id="de580169-0d28-4107-bd6f-595abc5be762" />
+          </inheritance>
+        </superClass>
+        <saTargets>
+          <simpleAssociation Id="b7b5e9a0-3468-41fa-8867-8ce44696b7d9" sourceCollectionName="ObjectTemplateChildMemberValues" name="ObjectTemplateChildMemberValueReferencesObjectTemplateMember" targetFieldName="Member">
+            <xpObjectMoniker Id="2cdd44c0-afe7-4c13-b6dc-585bd119509b" />
+          </simpleAssociation>
+        </saTargets>
+        <aggrTarget>
+          <aggregation Id="b7392b5a-5389-4cfc-8b21-31562803a796" sourceCollectionName="ObjectTemplateChildMembers" name="ObjectTemplateChildMemberReferencesObjectTemplateMember" targetFieldName="ParentMember">
+            <xpObjectMoniker Id="c7844792-4bc2-43e6-86eb-67394044c9fc" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="ba304e40-7f59-4c86-8c7b-4a6e79a5bbbf">
+            <collectionField Id="b7140ea3-03f3-4ee8-8e85-7a01f7eb2b9f" name="ObjectTemplateChildMembers" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="c2ab4c09-f062-4f95-94c9-aa6765ac5050">
+            <collectionField Id="b5a178ce-9623-4027-af3f-9f0124f50b45" name="ObjectTemplateChildMemberValues" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="540ec604-1aae-4336-99d1-f9d8145cd271">
+      <xpObject Id="c7844792-4bc2-43e6-86eb-67394044c9fc" name="ObjectTemplateChildMember" baseClass="XPObject" userFileName="ObjectTemplateChildMember" designerFileName="ObjectTemplateChildMember.Designer" className="ObjectTemplateChildMember" virtualName="ObjectTemplateChildMember">
+        <fields>
+          <generalXpObjectHasFields Id="02c62b8c-0dfa-4509-bb97-c0293a31d5cb">
+            <field Id="ad9490dc-ec6e-43ff-9c34-2adf041df934" name="ParentMember" virtualColumnType="ObjectTemplateMember" logicalType="ObjectTemplateMember" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4ffc2456-ff8e-4009-8489-a67c41915944">
+            <field Id="939e0452-3365-462f-a017-7b2406254c21" name="MemberName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fa3671c1-7500-40bc-9c61-b3eab011ec6b">
+            <field Id="52b6c3cc-b20e-460c-8afc-c72a391ead24" name="MemberType" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5f965fbb-0183-43ec-9abd-c5d9a278f12f">
+            <field Id="61898e22-e4e3-4752-9bab-586912347324" name="UseKey" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fa4d503f-05fe-46d0-b1aa-1ef3b702031a">
+            <field Id="aeed731e-51e0-4510-8f85-dec67bcd0be4" name="AllowEdit" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="85eceb1a-2388-4f54-af49-b1860179ac35">
+            <field Id="3d083e7a-a0ed-4476-b78d-45723966fb44" name="Index" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="49f1d7c1-87da-4ebb-934c-1a8fdc78118f" sourceCollectionName="ObjectTemplateChildMemberValues" name="ObjectTemplateChildMemberValueReferencesObjectTemplateChildMember" targetFieldName="ChildMember">
+            <xpObjectMoniker Id="2cdd44c0-afe7-4c13-b6dc-585bd119509b" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="63e0bf85-4cd9-4e8e-8d77-db500effafd7">
+            <collectionField Id="a3c0196c-98fd-4b7a-8e5d-6534105ddb4c" name="ObjectTemplateChildMemberValues" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="24eeaace-8bca-4177-b2bb-8f4e0939b995">
+      <xpObject Id="2cdd44c0-afe7-4c13-b6dc-585bd119509b" name="ObjectTemplateChildMemberValue" baseClass="XPObject" userFileName="ObjectTemplateChildMemberValue" designerFileName="ObjectTemplateChildMemberValue.Designer" className="ObjectTemplateChildMemberValue" virtualName="ObjectTemplateChildMemberValue">
+        <fields>
+          <generalXpObjectHasFields Id="2bec2178-ca49-4a83-ab27-69c533ada202">
+            <field Id="a8dd2022-b43c-4e34-a212-42b6594b8a84" name="Id" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ebf46cc9-1b72-43d4-a7a8-7f8d36db68d3">
+            <field Id="97642420-d658-4038-aa0b-834521de2fde" name="Member" virtualColumnType="ObjectTemplateMember" logicalType="ObjectTemplateMember" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9e63b649-2c09-4b68-baf9-b379c1483e67">
+            <field Id="c3107a5b-0a0b-4f89-806e-aefe842c8202" name="ChildMember" virtualColumnType="ObjectTemplateChildMember" logicalType="ObjectTemplateChildMember" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9ef2f4b7-533e-47b4-8182-5eb9f23e3817">
+            <field Id="a4e02bac-79ab-48d3-a582-f36f6679ad64" name="MemberValue" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

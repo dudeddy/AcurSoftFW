@@ -104,7 +104,7 @@ Public NotInheritable Class ModuleCore
     Public Overrides Sub ExtendModelInterfaces(ByVal extenders As ModelInterfaceExtenders)
         MyBase.ExtendModelInterfaces(extenders)
         extenders.Add(Of IModelApplication, IModelApplicationAEx)()
-        'extenders.Add(Of IModelClass, IListOrderIndexIModelClass)()
+        extenders.Add(Of IModelClass, IModelClassAEx)()
         extenders.Add(Of IModelMember, IModelMemberAEx)()
 
         'extenders.Add(Of IModelDetailView, IModelDetailViewEx)()

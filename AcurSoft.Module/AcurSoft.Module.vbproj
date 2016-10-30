@@ -144,9 +144,31 @@
     <Compile Include="Actions\ViewController1.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplate.Designer.vb">
+      <DependentUpon>ObjectTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplate.vb" />
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateChildMember.Designer.vb">
+      <DependentUpon>ObjectTemplateChildMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateChildMember.vb" />
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateChildMemberValue.Designer.vb">
+      <DependentUpon>ObjectTemplateChildMemberValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateChildMemberValue.vb" />
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateMember.Designer.vb">
+      <DependentUpon>ObjectTemplateMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ObjectTemplate\DALCode\ObjectTemplateMember.vb" />
     <Compile Include="BusinessObjects\Tests\Detail.vb" />
     <Compile Include="BusinessObjects\Tests\DetailX.vb" />
     <Compile Include="BusinessObjects\Tests\MasterX.vb" />
+    <Compile Include="Controllers\ViewControllerObjectTemplates.Designer.vb">
+      <DependentUpon>ViewControllerObjectTemplates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ViewControllerObjectTemplates.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Core\Extensions\Devx.vb" />
     <Compile Include="Core\Extensions\Ext.vb" />
     <Compile Include="Core\ListEditorHelper.vb" />
@@ -170,6 +192,7 @@
     <Compile Include="BusinessObjects\Tests\Master.vb" />
     <Compile Include="DatabaseUpdate\Updater.vb" />
     <Compile Include="Enums\PlatformKind.vb" />
+    <Compile Include="Models\Native\IModelClassAEx.vb" />
     <Compile Include="ModuleCore.Designer.vb">
       <DependentUpon>ModuleCore.vb</DependentUpon>
     </Compile>
@@ -212,10 +235,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ObjectTemplate\Helper\ObjectTemplatesHelper.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Actions\ViewController1.resx">
       <DependentUpon>ViewController1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ViewControllerObjectTemplates.resx">
+      <DependentUpon>ViewControllerObjectTemplates.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -226,6 +253,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BusinessObjects\ObjectTemplate\DAL.xpo" />
+    <None Include="BusinessObjects\ObjectTemplate\DAL.xpo.diagram">
+      <DependentUpon>DAL.xpo</DependentUpon>
+    </None>
     <None Include="FunctionalTests\sample.ets" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -300,6 +331,14 @@
     <EmbeddedResource Include="Images\AcurSoft.Images.UnChecked_24x24.png" />
     <EmbeddedResource Include="Images\AcurSoft.Images.UnChecked_32x32.png" />
     <EmbeddedResource Include="Images\AcurSoft.Images.UnChecked_48x48.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.SaveAsTemplate.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.SaveAsTemplate_24x24.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.SaveAsTemplate_32x32.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.SaveAsTemplate_48x48.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.LoadFromTemplate.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.LoadFromTemplate_24x24.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.LoadFromTemplate_32x32.png" />
+    <EmbeddedResource Include="Images\AcurSoft.Images.LoadFromTemplate_48x48.png" />
     <Content Include="Welcome.html" />
   </ItemGroup>
   <ItemGroup />

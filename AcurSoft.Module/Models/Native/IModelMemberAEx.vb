@@ -39,11 +39,22 @@ Namespace Model
 
         <Browsable(False)>
         ReadOnly Property ListOrderIndexes As IEnumerable(Of IModelListOrderIndex)
+
+
+        <Category("Data")>
+        <ModelReadOnly(GetType(ModelMemberAExPropertyReadOnlyCalculator))>
+        Property UseInObjectTemplates As Boolean
     End Interface
 
 
     <DomainLogic(GetType(IModelMemberAEx))>
     Public Class ModelMemberAExNodeLogic
+
+        Public Shared Function Get_UseInObjectTemplates(ByVal instance As IModelMemberAEx) As Boolean
+            Return Not instance.ModelClass.TypeInfo.KeyMembers.Any(Function(q) q.Name = instance.Name)
+        End Function
+
+
         Public Shared Function Get_ObjectOrderIndex(ByVal instance As IModelMemberAEx) As IModelObjectOrderIndex
             Dim iModelClass As IModelClass = instance.ModelClass
             If Not iModelClass.TypeInfo.IsPersistent Then Return Nothing
@@ -209,6 +220,22 @@ Namespace Model
             '    End If
             'End If
             Return True
+        End Function
+    End Class
+
+    Public Class ModelMemberAExPropertyReadOnlyCalculator
+        Implements IModelIsReadOnly
+
+        Public Function IsReadOnly(node As IModelNode, childNode As IModelNode) As Boolean Implements IModelIsReadOnly.IsReadOnly
+            Return False
+        End Function
+
+        Public Function IsReadOnly(node As IModelNode, propertyName As String) As Boolean Implements IModelIsReadOnly.IsReadOnly
+            Dim instance As IModelMemberAEx = DirectCast(node, IModelMemberAEx)
+            Select Case propertyName
+                Case "UseInObjectTemplates"
+                    Return instance.ModelClass.TypeInfo.KeyMembers.Any(Function(q) q.Name = instance.Name)
+            End Select
         End Function
     End Class
 

@@ -14,7 +14,7 @@ Imports System.ComponentModel
 Namespace UFId.DAL
 
     Partial Public Class TestObject
-        Inherits DevExpress.Persistent.BaseImpl.BaseObject
+        Inherits UFIdBaseObject
         Dim _Tdate As DateTime
         Public Property Tdate() As DateTime
             Get
@@ -49,15 +49,6 @@ Namespace UFId.DAL
             End Get
             Set(ByVal value As String)
                 SetPropertyValue(Of String)("Field3", _Field3, value)
-            End Set
-        End Property
-        Dim _EditStatus As ObjectEditStatus
-        Public Property EditStatus() As ObjectEditStatus
-            Get
-                Return _EditStatus
-            End Get
-            Set(ByVal value As ObjectEditStatus)
-                SetPropertyValue(Of ObjectEditStatus)("EditStatus", _EditStatus, value)
             End Set
         End Property
     End Class

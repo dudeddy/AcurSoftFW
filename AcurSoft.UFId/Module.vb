@@ -34,7 +34,7 @@ Public NotInheritable Class UFIdModule
     Public Overrides Sub Setup(application As XafApplication)
         MyBase.Setup(application)
         ' Manage various aspects of the application UI and behavior at the module level.
-        UFIdGeneratorInitializer.Register(application)
+        UFIdInitializer.Register(application)
     End Sub
 
 

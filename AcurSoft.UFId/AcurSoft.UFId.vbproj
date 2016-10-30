@@ -136,16 +136,19 @@
     <Import Include="System.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="00\SequenceGenerator.vb" />
-    <Compile Include="00\UFIdGeneratorInitializer.vb" />
+    <Compile Include="BusinessObjects\UFIdBaseObject.vb" />
+    <Compile Include="Utils\UFIdGenerator.vb" />
+    <Compile Include="Utils\UFIdHelper.vb" />
+    <Compile Include="Utils\UFIdInitializer.vb" />
+    <Compile Include="Utils\UFIdNumValueInfos.vb" />
     <Compile Include="BusinessObjects\DALCode\ObjectEditStatus.Designer.vb">
       <DependentUpon>ObjectEditStatus.vb</DependentUpon>
     </Compile>
     <Compile Include="BusinessObjects\DALCode\ObjectEditStatus.vb" />
-    <Compile Include="BusinessObjects\DALCode\TestObject.Designer.vb">
+    <Compile Include="BusinessObjects\TestObject.Designer.vb">
       <DependentUpon>TestObject.vb</DependentUpon>
     </Compile>
-    <Compile Include="BusinessObjects\DALCode\TestObject.vb" />
+    <Compile Include="BusinessObjects\TestObject.vb" />
     <Compile Include="BusinessObjects\DALCode\UFIdConfig.Designer.vb">
       <DependentUpon>UFIdConfig.vb</DependentUpon>
     </Compile>
@@ -165,11 +168,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="DatabaseUpdate\Updater.vb" />
-    <Compile Include="Data\ConvertToObjectFunction.vb" />
-    <Compile Include="Data\EvaluateExpressionFunction.vb" />
-    <Compile Include="Data\UFIdSequenceInfos.vb" />
-    <Compile Include="Data\UnivesalCriteriaVisitor.vb" />
+    <Compile Include="Data\Filtering\ConvertToObjectFunction.vb" />
+    <Compile Include="Data\Filtering\EvaluateExpressionFunction.vb" />
+    <Compile Include="Utils\UFIdSequenceInfos.vb" />
+    <Compile Include="Data\Filtering\UnivesalCriteriaVisitor.vb" />
     <Compile Include="Enums\BasicType.vb" />
+    <Compile Include="Enums\DeletedAndReservedStrategies.vb" />
     <Compile Include="Enums\ObjectEditStatuses.vb" />
     <Compile Include="Enums\ReUseStrategies.vb" />
     <Compile Include="Enums\SequenceStatus.vb" />

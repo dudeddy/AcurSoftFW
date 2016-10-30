@@ -3,20 +3,17 @@ Imports DevExpress.Xpo
 Imports DevExpress.Data.Filtering
 Imports System.Collections.Generic
 Imports System.ComponentModel
-Imports DevExpress.Persistent.Base
+Namespace DAL
 
-Namespace UFId.DAL
-    <DefaultClassOptions>
-    Partial Public Class UFIdConfig
+    Partial Public Class ObjectTemplateMember
+        Public Sub New()
+            MyBase.New()
+        End Sub
         Public Sub New(ByVal session As Session)
             MyBase.New(session)
         End Sub
         Public Overrides Sub AfterConstruction()
             MyBase.AfterConstruction()
-            Me.SequenceStart = 1
-            Me.SequenceStep = 1
-            Me.ReUseDeletedStrategy = Enums.ReUseStrategies.None
-            Me.AffectReservedStrategy = Enums.ReUseStrategies.None
         End Sub
     End Class
 

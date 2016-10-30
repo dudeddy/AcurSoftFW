@@ -33,13 +33,13 @@ Namespace UFId.DAL
                 SetPropertyValue(Of String)("Name", _Name, value)
             End Set
         End Property
-        Dim _ReUseStrategy As AcurSoft.UFId.Enums.ReUseStrategies
-        Public Property ReUseStrategy() As AcurSoft.UFId.Enums.ReUseStrategies
+        Dim _ReUseDeletedStrategy As AcurSoft.UFId.Enums.ReUseStrategies
+        Public Property ReUseDeletedStrategy() As AcurSoft.UFId.Enums.ReUseStrategies
             Get
-                Return _ReUseStrategy
+                Return _ReUseDeletedStrategy
             End Get
             Set(ByVal value As AcurSoft.UFId.Enums.ReUseStrategies)
-                SetPropertyValue(Of AcurSoft.UFId.Enums.ReUseStrategies)("ReUseStrategy", _ReUseStrategy, value)
+                SetPropertyValue(Of AcurSoft.UFId.Enums.ReUseStrategies)("ReUseDeletedStrategy", _ReUseDeletedStrategy, value)
             End Set
         End Property
         Dim _AllowReservation As Boolean
@@ -49,6 +49,24 @@ Namespace UFId.DAL
             End Get
             Set(ByVal value As Boolean)
                 SetPropertyValue(Of Boolean)("AllowReservation", _AllowReservation, value)
+            End Set
+        End Property
+        Dim _AffectReservedStrategy As AcurSoft.UFId.Enums.ReUseStrategies
+        Public Property AffectReservedStrategy() As AcurSoft.UFId.Enums.ReUseStrategies
+            Get
+                Return _AffectReservedStrategy
+            End Get
+            Set(ByVal value As AcurSoft.UFId.Enums.ReUseStrategies)
+                SetPropertyValue(Of AcurSoft.UFId.Enums.ReUseStrategies)("AffectReservedStrategy", _AffectReservedStrategy, value)
+            End Set
+        End Property
+        Dim _DeletedAndReservedStrategy As AcurSoft.UFId.Enums.DeletedAndReservedStrategies
+        Public Property DeletedAndReservedStrategy() As AcurSoft.UFId.Enums.DeletedAndReservedStrategies
+            Get
+                Return _DeletedAndReservedStrategy
+            End Get
+            Set(ByVal value As AcurSoft.UFId.Enums.DeletedAndReservedStrategies)
+                SetPropertyValue(Of AcurSoft.UFId.Enums.DeletedAndReservedStrategies)("DeletedAndReservedStrategy", _DeletedAndReservedStrategy, value)
             End Set
         End Property
         Dim _SequenceStart As Long
